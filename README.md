@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iamdonovan/egm722/main)
+
 # EGM722: Programming for GIS and Remote Sensing Exercises
 
 ## 1. Getting started
