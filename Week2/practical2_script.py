@@ -16,6 +16,8 @@ def generate_handles(labels, colors, edge='k', alpha=1):
 
 
 # create a scale bar of length 20 km in the upper right corner of the map
+# adapted this question: https://stackoverflow.com/q/32333870
+# answered by SO user Siyh: https://stackoverflow.com/a/35705477
 def scale_bar(ax, location=(0.92, 0.95)):
     llx0, llx1, lly0, lly1 = ax.get_extent(ccrs.PlateCarree())
     sbllx = (llx1 + llx0) / 2
